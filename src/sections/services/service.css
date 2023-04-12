@@ -1,0 +1,10 @@
+.services-page{
+    margin: 2rem;
+}
+.holdSpecials{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foodDescription{
+    margin-left: 2rem;
+}

@@ -1,13 +1,92 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --background-color: #F4F6F7;
+  --bg-header-Footer: #2D527C;
+  --textHeader-Footer: #FBFCFC;
+   --card-bg: purple;
+   --headFooter-bg: grey;
+   --bg-buttons: #F0D709;
+   --cointainer-width-lg:76%;
+   --cointainer-width-md:90%;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: var(--background-color);
+  font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+button{
+ 
+  cursor: pointer;
+  background: var(--bg-buttons);
+  padding: 0.3rem 1.3rem;
+  border-radius: 0.3rem;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  
+}
+
+a{
+  font-size: 1.2rem; 
+}
+h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+p{
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px){
+  h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+
+  button{
+ 
+    padding: 0.1rem 1.0rem;
+    border-radius: 0.1rem;
+   
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    
+  }
+}
+
+@media screen and (max-width: 600px){
+  h2{
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+
+  button{
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    
+  }
 }

@@ -1,0 +1,13 @@
+.Testimony-page{
+    margin: 1.6rem;
+}
+.all-testimonies{
+    display: flex;
+    justify-content: space-around;
+}
+.comment{
+    margin: 2rem;
+}
+.rate-icons{
+    font-size: 22px;
+}
